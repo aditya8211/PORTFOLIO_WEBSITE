@@ -1,3 +1,7 @@
+setTimeout(() => {
+document.getElementById('splash-screen').style.display = 'none';
+  document.getElementById('main-content').style.display = 'block';
+}, 4000);
 /*=====toggle icon navbar====*/
 let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
