@@ -26,24 +26,6 @@ body {
     background: var(--bg-color);
     color: var(--text-color);
 }
-#splash-screen {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-color: #111;
-  color: #00ffff;
-  text-align: center;
-  animation: fadeOut 1s ease 3s forwards;
-}
-
-@keyframes fadeOut {
-  to {
-    opacity: 0;
-    visibility: hidden;
-  }
-}
 section {
     min-height: 100vh;
     padding: 10rem 9% 2rem;
@@ -559,3 +541,4 @@ span {
         margin-top: 2rem;
     }
 }
+
