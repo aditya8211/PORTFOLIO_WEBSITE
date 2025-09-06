@@ -1,4 +1,9 @@
-
+function closePDF() {
+      const pdfViewer = document.getElementById("pdfViewer");
+      const iframe = pdfViewer.querySelector("iframe");
+      iframe.src = "";
+      pdfViewer.style.display = "none";
+    }
 /*=====toggle icon navbar====*/
 let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
@@ -59,4 +64,3 @@ backSpeed:100,
 backDelay:1000,
 loop: true
 });
-
