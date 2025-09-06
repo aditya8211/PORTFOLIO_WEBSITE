@@ -51,3 +51,10 @@ backSpeed:100,
 backDelay:1000,
 loop: true
 });
+const typed2 = new Typed('.multiple-text2',{
+strings:['Graphic Designer!','Freelancer!','Business Operator!','Website Developer!','Content Creator!'],
+typeSpeed: 100,
+backSpeed:100,
+backDelay:1000,
+loop: true
+});
